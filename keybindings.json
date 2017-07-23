@@ -1,0 +1,8 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+  { "key": "shift+h",          "command": "workbench.action.previousEditor" },
+  { "key": "shift+l",          "command": "workbench.action.nextEditor" },
+  { "key": "shift+k",          "command": "git.branch" },
+  { "key": "z r",              "command": "editor.fold" },
+  { "key": "z t",              "command": "editor.unfold" }
+]

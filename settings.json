@@ -1,0 +1,58 @@
+// 将设置放入此文件中以覆盖默认设置
+{
+    // editor
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    // vim
+    "vim.leader": ",",
+    "vim.incsearch": true,
+    "vim.useCtrlKeys": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.searchHighlightColor":"rgba(150, 150, 255, 1)",
+    "vim.easymotion": true,
+    "vim.handleKeys":{
+        "<C-a>": false,
+        "<C-h>": false,
+        "<Shift-l>": false
+    },
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["leader", "w"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["shift+l"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.navigateForward",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "q"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "files.associations": {
+        "*.wpy": "html",
+        "*.wxml": "html",
+        "*.wxss": "css"
+    },
+    "workbench.colorTheme": "Visual Studio Dark",
+}
