@@ -54,5 +54,10 @@
         "*.wxml": "html",
         "*.wxss": "css"
     },
-    "workbench.colorTheme": "Visual Studio Dark",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "workbench.colorTheme": "Monokai Dimmed"
 }
