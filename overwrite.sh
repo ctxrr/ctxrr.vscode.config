@@ -1,1 +1,1 @@
-mv * ~/Library/Application\ Support/Code/User
+cp -rf ./config/* ~/Library/Application\ Support/Code/User
