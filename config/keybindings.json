@@ -1,9 +1,17 @@
 // 将键绑定放入此文件中以覆盖默认值
 [
-  { "key": "shift+h",          "command": "workbench.action.previousEditor" },
-  { "key": "shift+l",          "command": "workbench.action.nextEditor" },
-  { "key": "shift+k",          "command": "git.branch" },
-  { "key": "z r",              "command": "editor.fold" },
+  { "key": "cmd+shift+h",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus"
+  },
+  { "key": "cmd+shift+l",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "z r",
+    "command": "editor.fold"
+  },
   {
     "key": "z t",
     "command": "editor.unfold"
@@ -11,5 +19,35 @@
   {
     "key": "cmd+right cmd+right",
     "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+cmd+l",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+right",
+    "command": "-editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+h",
+    "command": "editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+/",
+    "command": "editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+a",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]

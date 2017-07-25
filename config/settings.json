@@ -14,10 +14,60 @@
     "vim.easymotion": true,
     "vim.handleKeys":{
         "<C-a>": false,
-        "<C-h>": false,
-        "<Shift-l>": false
+        "<C-h>": false
     },
+    "vim.insertModeKeyBindings": [],
     "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": ["m", "m"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "bookmarks.toggle",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["m", "a"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "bookmarks.listFromAllFiles",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["m", "l"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "bookmarks.list",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["m", "f"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "bookmarks.jumpToNext",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["m", "b"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "bookmarks.jumpToPrevious",
+                    "args": []
+                }
+            ]
+        },
         {
             "before": ["leader", "w"],
             "after": [],
@@ -29,21 +79,21 @@
             ]
         },
         {
-            "before": ["shift+l"],
-            "after": [],
-            "commands": [
-                {
-                    "command": "workbench.action.navigateForward",
-                    "args": []
-                }
-            ]
-        },
-        {
             "before": ["leader", "q"],
             "after": [],
             "commands": [
                 {
                     "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "g", "d"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "git.openChange",
                     "args": []
                 }
             ]
