@@ -9,14 +9,6 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "z r",
-    "command": "editor.fold"
-  },
-  {
-    "key": "z t",
-    "command": "editor.unfold"
-  },
-  {
     "key": "cmd+right cmd+right",
     "command": "workbench.action.terminal.focusNext"
   },

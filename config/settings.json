@@ -19,6 +19,26 @@
     "vim.insertModeKeyBindings": [],
     "vim.otherModesKeyBindingsNonRecursive": [
         {
+            "before": ["z", "r"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.fold",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["z", "t"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.unfold",
+                    "args": []
+                }
+            ]
+        },
+        {
             "before": ["m", "m"],
             "after": [],
             "commands": [
@@ -99,6 +119,12 @@
             ]
         }
     ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true,
+        "**/deploy": true
+    },
     "files.associations": {
         "*.wpy": "html",
         "*.wxml": "html",
