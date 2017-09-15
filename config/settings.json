@@ -3,6 +3,7 @@
     // editor
     "editor.fontSize": 13,
     "editor.tabSize": 2,
+    "editor.smoothScrolling": true,
     // vim
     "vim.leader": ",",
     "vim.incsearch": true,
@@ -135,5 +136,6 @@
         "javascriptreact",
         "vue"
     ],
-    "workbench.colorTheme": "Monokai Dimmed"
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.editor.enablePreviewFromQuickOpen": false
 }
