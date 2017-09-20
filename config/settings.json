@@ -8,6 +8,7 @@
     "vim.leader": ",",
     "vim.incsearch": true,
     "vim.useCtrlKeys": true,
+    "vim.ignorecase": true,
     "vim.disableAnnoyingNeovimMessage": true,
     "vim.hlsearch": true,
     "vim.useSystemClipboard": true,
@@ -30,7 +31,13 @@
             ]
         },
         {
-            "before": ["s"],
+            // easymotion search 2 char re-map to 'f'
+            "before": ["f"],
+            "after": ["leader", "leader", "2", "s"]
+        },
+        {
+            // easymotion search any char re-map to 'F'
+            "before": ["F"],
             "after": ["leader", "leader", "/"]
         },
         {
@@ -124,6 +131,7 @@
             ]
         }
     ],
+    // ignore folders in search mode
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
