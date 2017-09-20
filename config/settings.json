@@ -30,6 +30,10 @@
             ]
         },
         {
+            "before": ["s"],
+            "after": ["leader", "leader", "/"]
+        },
+        {
             "before": ["z", "t"],
             "after": [],
             "commands": [
