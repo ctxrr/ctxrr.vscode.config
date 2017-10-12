@@ -19,7 +19,7 @@
   },
   {
     "key": "ctrl+shift+cmd+right",
-    "command": "-editor.action.smartSelect.grow",
+    "command": "editor.action.smartSelect.grow",
     "when": "editorTextFocus"
   },
   {

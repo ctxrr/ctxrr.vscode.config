@@ -31,6 +31,26 @@
             ]
         },
         {
+            "before": ["leader", "D"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.goToImplementation",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": ["leader", "d"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.goToDeclaration",
+                    "args": []
+                }
+            ]
+        },
+        {
             // easymotion search 2 char re-map to 'f'
             "before": ["f"],
             "after": ["leader", "leader", "2", "s"]
