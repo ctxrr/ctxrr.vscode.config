@@ -9,7 +9,6 @@
     "vim.incsearch": true,
     "vim.useCtrlKeys": true,
     "vim.ignorecase": true,
-    "vim.disableAnnoyingNeovimMessage": true,
     "vim.hlsearch": true,
     "vim.useSystemClipboard": true,
     "vim.searchHighlightColor":"rgba(150, 150, 255, 1)",
@@ -168,6 +167,7 @@
         "javascriptreact",
         "vue"
     ],
+    "javascript.validate.enable": false,
     "workbench.colorTheme": "Monokai Dimmed",
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 }
