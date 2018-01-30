@@ -41,5 +41,9 @@
     "key": "shift+alt+a",
     "command": "-editor.action.blockComment",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+left cmd+left",
+    "command": "workbench.action.terminal.focusPrevious"
   }
 ]
