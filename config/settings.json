@@ -160,14 +160,47 @@
     "files.associations": {
         "*.wpy": "html",
         "*.wxml": "html",
-        "*.wxss": "css"
+        "*.wxss": "css",
+        "*.mpx": "vue"
     },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
-        "vue"
+        {
+            "language": "vue",
+            "autoFix": true
+        }
     ],
+    "eslint.autoFixOnSave": true,
     "javascript.validate.enable": false,
+
+    // Defines space handling after a comma delimiter
+    "javascript.format.insertSpaceAfterCommaDelimiter": true,
+
+    // Defines space handling after a semicolon in a for statement
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+
+    // Defines space handling after a binary operator
+    "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": false,
+
+    // Defines space handling after keywords in control flow statement
+    "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+    // Defines space handling after function keyword for anonymous functions
+    "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+    // Defines space handling after opening and before closing non-empty parenthesis
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+
+    // Defines space handling after opening and before closing non-empty brackets
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+    // Defines whether an open brace is put onto a new line for functions or not
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+    // Defines whether an open brace is put onto a new line for control blocks or not
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
     "workbench.colorTheme": "Monokai Dimmed",
     "workbench.editor.enablePreviewFromQuickOpen": false,
 }
