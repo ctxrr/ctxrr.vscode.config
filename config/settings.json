@@ -18,7 +18,8 @@
         "<C-h>": false
     },
     "vim.insertModeKeyBindings": [],
-    "vim.otherModesKeyBindingsNonRecursive": [
+    "vim.visualModeKeyBindings": [],
+    "vim.normalModeKeyBindings": [
         {
             "before": ["z", "r"],
             "after": [],
