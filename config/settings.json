@@ -203,5 +203,6 @@
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
 
     "workbench.colorTheme": "Monokai Dimmed",
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "breadcrumbs.enabled": true
 }

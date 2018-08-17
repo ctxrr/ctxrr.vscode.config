@@ -14,22 +14,7 @@
   },
   {
     "key": "ctrl+cmd+l",
-    "command": "editor.action.smartSelect.grow",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+cmd+right",
-    "command": "editor.action.smartSelect.grow",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+cmd+h",
     "command": "editor.action.smartSelect.shrink",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+cmd+left",
-    "command": "-editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
   {
@@ -47,7 +32,7 @@
     "command": "workbench.action.terminal.focusPrevious"
   },
   {
-    "key": "shift+cmd+o",
+    "key": "shift+cmd+t",
     "command": "workbench.action.showAllSymbols"
   },
   {
@@ -61,5 +46,10 @@
   {
     "key": "shift+cmd+o",
     "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+cmd+h",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
   }
 ]
