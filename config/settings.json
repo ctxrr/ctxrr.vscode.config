@@ -21,16 +21,6 @@
     "vim.visualModeKeyBindings": [],
     "vim.normalModeKeyBindings": [
         {
-            "before": ["z", "r"],
-            "after": [],
-            "commands": [
-                {
-                    "command": "editor.fold",
-                    "args": []
-                }
-            ]
-        },
-        {
             "before": ["leader", "D"],
             "after": [],
             "commands": [
@@ -59,16 +49,6 @@
             // easymotion search any char re-map to 'F'
             "before": ["F"],
             "after": ["leader", "leader", "/"]
-        },
-        {
-            "before": ["z", "t"],
-            "after": [],
-            "commands": [
-                {
-                    "command": "editor.unfold",
-                    "args": []
-                }
-            ]
         },
         {
             "before": ["m", "m"],
