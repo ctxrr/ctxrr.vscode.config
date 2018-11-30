@@ -26,7 +26,6 @@
             "commands": [
                 {
                     "command": "editor.action.goToImplementation",
-                    "args": []
                 }
             ]
         },
@@ -133,16 +132,28 @@
     ],
     // ignore folders in search mode
     "search.exclude": {
-        "**/node_modules": true,
         "**/bower_components": true,
-        "**/dist": true,
-        "**/deploy": true
+        "**/deploy": true,
+        "**/dist": true
     },
     "files.associations": {
         "*.wpy": "html",
         "*.wxml": "html",
         "*.wxss": "css",
-        "*.mpx": "vue"
+        "*.mpx": "vue",
+        "*.acss": "css"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true
     },
     "eslint.validate": [
         "javascript",
@@ -181,8 +192,9 @@
 
     // Defines whether an open brace is put onto a new line for control blocks or not
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
-
-    "workbench.colorTheme": "Monokai Dimmed",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "search.followSymlinks": false,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "search.useIgnoreFiles": false
 }
