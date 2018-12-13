@@ -25,7 +25,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "editor.action.goToImplementation",
+                    "command": "editor.action.peekDefinition",
                 }
             ]
         },
@@ -34,11 +34,31 @@
             "after": [],
             "commands": [
                 {
-                    "command": "editor.action.goToDeclaration",
+                    "command": "editor.action.revealDefinition",
                     "args": []
                 }
             ]
         },
+        {
+            "before": ["leader", "r"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "references-view.find"
+                }
+            ]
+        },
+        {
+            "before": ["leader", "R"],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.referenceSearch.trigger",
+                    "args": []
+                }
+            ]
+        },
+
         {
             // easymotion search 2 char re-map to 'f'
             "before": ["f"],
