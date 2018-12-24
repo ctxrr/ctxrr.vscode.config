@@ -21,7 +21,7 @@
     "vim.visualModeKeyBindings": [],
     "vim.normalModeKeyBindings": [
         {
-            "before": ["leader", "D"],
+            "before": ["leader", "d"],
             "after": [],
             "commands": [
                 {
@@ -30,7 +30,7 @@
             ]
         },
         {
-            "before": ["leader", "d"],
+            "before": ["leader", "D"],
             "after": [],
             "commands": [
                 {
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "before": ["leader", "r"],
+            "before": ["leader", "R"],
             "after": [],
             "commands": [
                 {
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "before": ["leader", "R"],
+            "before": ["leader", "r"],
             "after": [],
             "commands": [
                 {
@@ -161,6 +161,7 @@
         "*.wxml": "html",
         "*.wxss": "css",
         "*.mpx": "vue",
+        "*.mpex": "vue",
         "*.acss": "css"
     },
     "files.exclude": {
