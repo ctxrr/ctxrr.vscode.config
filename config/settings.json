@@ -162,6 +162,9 @@
         "*.wxss": "css",
         "*.mpx": "vue",
         "*.mpex": "vue",
+        "*.th": "vue",
+        "*.cml": "vue",
+        "*.interface": "vue",
         "*.acss": "css"
     },
     "files.exclude": {
