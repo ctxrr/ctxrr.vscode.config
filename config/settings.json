@@ -159,13 +159,15 @@
     "files.associations": {
         "*.wpy": "html",
         "*.wxml": "html",
+        "*.axml": "html",
+        "*.acss": "css",
         "*.wxss": "css",
+        "*.wxs": "js",
+        "*.sjs": "js",
         "*.mpx": "vue",
-        "*.mpex": "vue",
         "*.th": "vue",
         "*.cml": "vue",
-        "*.interface": "vue",
-        "*.acss": "css"
+        "*.interface": "vue"
     },
     "files.exclude": {
         "**/.git": true,
@@ -221,5 +223,9 @@
     "search.followSymlinks": false,
     "workbench.colorTheme": "Monokai Dimmed",
     "search.useIgnoreFiles": false,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.minimap.enabled": false
 }
