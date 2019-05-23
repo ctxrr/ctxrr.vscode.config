@@ -162,8 +162,8 @@
         "*.axml": "html",
         "*.acss": "css",
         "*.wxss": "css",
-        "*.wxs": "js",
-        "*.sjs": "js",
+        "*.wxs": "javascript",
+        "*.sjs": "javascript",
         "*.mpx": "vue",
         "*.th": "vue",
         "*.cml": "vue",
@@ -227,5 +227,8 @@
     "[html]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
